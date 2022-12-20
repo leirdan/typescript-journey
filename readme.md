@@ -28,3 +28,7 @@
 -   O bigint não gera erros de arredondamento, sendo perfeito para trabalhar com valores monetários.
 -   Sintaxe: **let distance: bigint = 3130192n**
     -   Adendo: deve-se sempre colocar o "n" no final. Para números hexadecimais, binários e octais se segue a mesma regra do number.
+
+### 1.5 TYPE STRING
+
+-   Um objeto que representa uma sequência de caracteres, que podem ser colocados entre aspas simples ou duplas.
