@@ -32,3 +32,9 @@
 ### 1.5 TYPE STRING
 
 -   Um objeto que representa uma sequência de caracteres, que podem ser colocados entre aspas simples ou duplas.
+
+### 1.6 TYPE ARRAY
+
+-   Tipo que é uma lista ordenada de dados de um tipo específico. Um array pode ter apenas valores em texto, números, objetos ou quaisquer outros valores.
+-   Sintaxe: **let array: Type[ ] = [ ]**;
+    -   "type" pode ser substituído por string, number, etc., desde que esteja acompanhado dos colchetes.
