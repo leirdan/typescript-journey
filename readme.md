@@ -45,3 +45,16 @@
 -   Sintaxe: **let tuple = [number, string, number, number, string, ...]**; primeiro declaramos a estrutura da tupla.
 
 -   Em seguida, declaramos os valores dos campos de acordo com os tipos fornecidos em ordem: **tuple = [03, "hello", 1.43, 1213, "i know the end", ...]**
+
+### 1.8 TYPE ENUM
+
+-   Uma estrutura de dados não-ordenada que mapeia chaves-valores com o objetivo de enumerar esses valores.
+-   Os Enums podem ser numéricos ou de String. É recoendado o uso apenas em situações que um procedimento aceita um conjunto LIMITADO de valores.
+-   Sintaxe: **Enum TypeName {
+    constant1, constant2, ...
+    }**
+-   Sua utilidade consiste em:
+    -   Facilidade de mudar valores;
+    -   Reduz erros;
+    -   Existe apenas em tempo de compilação (não ocupa memória), e o tempo de execução será mais rápido;
+    -   Permite criar constantes, personalizadas ou não.
