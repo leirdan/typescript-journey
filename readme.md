@@ -58,3 +58,15 @@
     -   Reduz erros;
     -   Existe apenas em tempo de compilação (não ocupa memória), e o tempo de execução será mais rápido;
     -   Permite criar constantes, personalizadas ou não.
+
+### 1.9 TYPE ANY
+
+-   Indicado para trabalhar com valores desconhecidos no momento. É um tipo que representa qualquer valor Javascript sem restrições.
+-   É especialmente útil quando se espera um valor de alguma biblioteca de terceiros ou a entrada de um algum dado por meio do usuário.
+-   Sintaxe: **let anyValue: any = "lalilulelou"**
+
+### 1.10 TYPE UNKNOWN
+
+-   Tipo introduzido para reduzir erros causados pelo Type Any.
+-   A diferença de unknown para any é que **não é possível acessar propriedades de um valor de tipo unknown**.
+-   Sintaxe: **let unknownValue: unknown = "Philosophers"**
