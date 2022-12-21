@@ -38,3 +38,10 @@
 -   Tipo que é uma lista ordenada de dados de um tipo específico. Um array pode ter apenas valores em texto, números, objetos ou quaisquer outros valores.
 -   Sintaxe: **let array: Type[ ] = [ ]**;
     -   "type" pode ser substituído por string, number, etc., desde que esteja acompanhado dos colchetes.
+
+### 1.7 TYPE TUPLE
+
+-   Tipo que pode substituir um array ao representar uma coleção de muitos tipos de valores. As tuplas também podem ser passadas como parâmetros para funções, e tem um número fixo de elementos.
+-   Sintaxe: **let tuple = [number, string, number, number, string, ...]**; primeiro declaramos a estrutura da tupla.
+
+-   Em seguida, declaramos os valores dos campos de acordo com os tipos fornecidos em ordem: **tuple = [03, "hello", 1.43, 1213, "i know the end", ...]**
