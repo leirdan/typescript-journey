@@ -70,3 +70,10 @@
 -   Tipo introduzido para reduzir erros causados pelo Type Any.
 -   A diferença de unknown para any é que **não é possível acessar propriedades de um valor de tipo unknown**.
 -   Sintaxe: **let unknownValue: unknown = "Philosophers"**
+
+### 1.11 TYPE VOID
+
+-   Tipo usado para uma função que não retorna nenhum valor. Pode ser entendido como um contraponto ao Type Any, já que é um tipo que não tem nenhum tipo.
+-   Ao utilizar esse tipo em métodos e funções, o código fica mais claro e garante a segurança de tipo de uma variável - já que, como o tipo void representa a ausência de valor, uma variável não pode ser do tipo void pois ela necessariamente armazena um valor.
+    -   Variáveis do tipo void só podem ter o valor **undefined** (ou **null**, caso altere a propriedade "strictNullChecks" para false em tsconfig.json)
+-   Sintaxe: **function voidFunction(text): void {}**
