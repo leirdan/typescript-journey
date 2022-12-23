@@ -87,3 +87,8 @@
 
 -   Tipo que representa variáveis que ainda não foram inicializadas e funções que não retornam nenhum valor.
 -   Indica uma ausência da **própria variável**.
+
+### 1.14 TYPE NEVER
+
+-   Tipo que **não contém valores** e não pode ser atribuído nenhum valor a ele.
+-   Usado especialmente para representar um retorno de função que gera um erro (as Throw Exceptions).
