@@ -77,3 +77,13 @@
 -   Ao utilizar esse tipo em métodos e funções, o código fica mais claro e garante a segurança de tipo de uma variável - já que, como o tipo void representa a ausência de valor, uma variável não pode ser do tipo void pois ela necessariamente armazena um valor.
     -   Variáveis do tipo void só podem ter o valor **undefined** (ou **null**, caso altere a propriedade "strictNullChecks" para false em tsconfig.json)
 -   Sintaxe: **function voidFunction(text): void {}**
+
+### 1.12 TYPE NULL
+
+-   Objeto que representa uma ausência **intencional** de valor. Nenhum valor pode ser atribuido á uma variável null, apenas um valor nulo.
+-   Indica uma ausência de valor para uma variável.
+
+### 1.13 TYPE UNDEFINED
+
+-   Tipo que representa variáveis que ainda não foram inicializadas e funções que não retornam nenhum valor.
+-   Indica uma ausência da **própria variável**.
