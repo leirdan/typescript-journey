@@ -92,3 +92,12 @@
 
 -   Tipo que **não contém valores** e não pode ser atribuído nenhum valor a ele.
 -   Usado especialmente para representar um retorno de função que gera um erro (as Throw Exceptions).
+
+### 1.15 TYPE OBJECT
+
+-   Tipo que representa valores que não são os tipos primitivos, sendo a melhor forma de representar dados.
+-   Podem ser anônimos ou nomeados.
+-   Diferença entre:
+    -   object: representa qualquer valor que não seja primitivo.
+    -   Object: descreve a funcionalidade disponível em todos os objetos.
+    -   {}: objeto que não possui propriedades próprias.
