@@ -101,3 +101,11 @@
     -   object: representa qualquer valor que não seja primitivo.
     -   Object: descreve a funcionalidade disponível em todos os objetos.
     -   {}: objeto que não possui propriedades próprias.
+
+## 2. POO
+
+### 2.1 CLASSES
+
+-   Forma eficaz de organizar e aprimorar o código.
+-   Suportam modificadores, interfaces, decorators, polimorfismo, herança, etc.
+-   Contém campos, métodos, construtores (inicializar objeto) e classes aninhadas.
