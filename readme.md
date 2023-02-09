@@ -102,10 +102,23 @@
     -   Object: descreve a funcionalidade disponível em todos os objetos.
     -   {}: objeto que não possui propriedades próprias.
 
-## 2. POO
+## 2. POO (Programação Orientada a Objetos)
 
 ### 2.1 CLASSES
 
 -   Forma eficaz de organizar e aprimorar o código.
 -   Suportam modificadores, interfaces, decorators, polimorfismo, herança, etc.
 -   Contém campos, métodos, construtores (inicializar objeto) e classes aninhadas.
+
+### 2.2 GETTERS E SETTERS
+
+-   São uma maneira de fornecer acesso às propriedades de uma classe ou objeto.
+-   No Typescript, ao contrário de outras linguagens de POO, é possível acessar variáveis dentro de uma classe sem definir um getter ou setter.
+
+#### 2.2.1 GETTER
+
+-   Método que acessa a propriedade do objeto.
+
+#### 2.2.2 SETTER
+
+-   Método que altera a propriedade do objeto.
