@@ -127,3 +127,4 @@
 
 -   Propriedades e métodos compartilhados entre todas as instâncias de uma classe.
 -   Ideal para realizar verificação de uma regra de negócio, restrições de classes e impedir que propriedades mudem, além de outros casos.
+-   Para acessar, utilize o nome da classe seguido do nome da propriedade/método.

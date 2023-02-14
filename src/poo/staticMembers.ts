@@ -34,3 +34,30 @@ const megaman = new OtherGame("megaman x2", "platform");
 
 // console.log(OtherGame.plays) -> erro pois plays é privado, por isso precisa do método para acessar
 console.log(OtherGame.getPlays()); // 1
+
+// Exemplo 03 - manipulando propriedades estáticas dentro da classe
+
+type Genre = "classic rock" | "pop" | "black metal" | "hip hop" | "mpb";
+
+class Album {
+	public name: string;
+	public year: number;
+	public genre: Genre;
+	private static distinctAlbums = 0;
+
+	constructor(name: string, year: number, genre: Genre) {
+		this.name = name;
+		this.year = year;
+		this.genre = genre;
+		Album.distinctAlbums++;
+		// a cada declaração, imprima o número de discos existentes no momento
+		console.log(Album.distinctAlbums);
+		/*
+        como são duas declarações, é impresso:
+        1
+        2
+        */
+	}
+}
+const album01 = new Album("sgt pepper's lonely hearts club band", 1967, "classic rock");
+const album02 = new Album("i loved you at your darkest", 2018, "black metal");
