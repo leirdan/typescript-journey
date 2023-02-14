@@ -122,3 +122,8 @@
 #### 2.2.2 SETTER
 
 -   Método que altera a propriedade do objeto.
+
+### 2.3 MEMBROS ESTÁTICOS
+
+-   Propriedades e métodos compartilhados entre todas as instâncias de uma classe.
+-   Ideal para realizar verificação de uma regra de negócio, restrições de classes e impedir que propriedades mudem, além de outros casos.
