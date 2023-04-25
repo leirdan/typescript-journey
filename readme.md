@@ -128,3 +128,11 @@
 -   Propriedades e métodos compartilhados entre todas as instâncias de uma classe.
 -   Ideal para realizar verificação de uma regra de negócio, restrições de classes e impedir que propriedades mudem, além de outros casos.
 -   Para acessar, utilize o nome da classe seguido do nome da propriedade/método.
+
+## 3. DECORATORS
+
+## 3.1 DEFINIÇÃO
+
+-   Podemos definir os decorators como mecanismos e funções que irão ser ativadas quando determinado gatilho for acionado.
+-   O decorator só vai executar o código onde for chamado! Um comportamento comum é a injeção de código.
+-   São comumente utilizados para validação e usados em classes, mas não exclusivamente.
